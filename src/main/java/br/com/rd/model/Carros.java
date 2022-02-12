@@ -4,11 +4,12 @@ public class Carros {
 	private Integer id;
 	private String modelo;
 	private Integer ano;
+
 	
-	public Carros(Integer id, String modelo, Integer ano){
-		this.id = id;
+	public Carros(String modelo, Integer ano){
 		this.modelo = modelo;
 		this.ano = ano;
+	
 	}
 
 	public Integer getId() {
@@ -39,5 +40,5 @@ public class Carros {
 	public void setAno(Integer ano) {
 		this.ano = ano;
 	}
-	
+
 }

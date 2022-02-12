@@ -4,9 +4,8 @@ public class Ipva {
 	private Integer id;
 	private Integer ano;
 	
-	public Ipva (Integer id, Integer ano) {
-		this.id = id;
-		this.id = id;
+	public Ipva (Integer ano) {
+		this.ano = ano;
 	}
 
 	public Integer getId() {
